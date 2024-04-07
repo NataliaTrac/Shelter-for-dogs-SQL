@@ -1,13 +1,3 @@
-DROP TABLE IF EXIST Dog_Treatment;
-DROP TABLE IF EXIST Specializations;
-DROP TABLE IF EXIST Specialization;
-DROP TABLE IF EXIST Treatment;
-DROP TABLE IF EXIST ShelterCare;
-DROP TABLE IF EXIST Adoption;
-DROP TABLE IF EXIST Volunteer;
-DROP TABLE IF EXIST Person;
-DROP TABLE IF EXIST Dog;
-
 CREATE TABLE Dog (
     chip_number integer NOT NULL,
     name varchar2(45) NOT NULL,
